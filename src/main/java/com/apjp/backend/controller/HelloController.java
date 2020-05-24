@@ -8,7 +8,12 @@ public class HelloController {
 	
 	@RequestMapping("/hello")
     public String hello() {
-        return "Hello World RESTful with Spring Boot";
+        return "Hello ";
+    }  
+	
+	@RequestMapping("/oh")
+    public String oh() {
+        return "ohho ";
     }  
 
 }
