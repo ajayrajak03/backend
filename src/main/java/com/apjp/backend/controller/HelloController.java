@@ -15,5 +15,11 @@ public class HelloController {
     public String oh() {
         return "ohho ";
     }  
+	
+	@RequestMapping("/pullhua")
+    public String pullhua() {
+        return "pull ho gya ";
+    }  
+
 
 }
